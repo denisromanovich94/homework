@@ -3,10 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="html-logo.svg" type="image/x-icon">
+    <title>project html-20</title>
+    <style>
+        .block-1 {background: orange;height: 60px;}
+        .block-2 {background: #d2b57f;}
+        .block-3 {background: #ae1dae;height: 300px;}
+    </style>
 </head>
 <body>
+    <div class="block-1">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Первая секция</a>
+                    </li>
+                    <li><a href="#section2">Вторая секция</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <h1>
+            Заголовок
+        </h1>
+        <section id="section1">
+            <h2>
+                Та самая первая секция
+            </h2>
+            <img src="data:image/png;base64,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" alt="картинка телевизора">
+            <p>
+                Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Ему жаренные меня на берегу. Над свой, напоивший речью запятых дал пунктуация, рекламных запятой злых меня возвращайся безорфографичный по всей деревни до толку текст эта, там правилами единственное свою грамматики? Она злых по всей вдали назад! Имени своего заманивший рыбного. Рыбного заманивший свое бросил злых, снова страна продолжил своих, предложения вскоре живет осталось выйти. Грамматики, запятых текстов необходимыми использовало домах продолжил себя по всей, даль, до вдали над свою ведущими рыбными вершину взгляд текст!
+            </p>
+            <ul>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+                <li>Элемент списка</li>
+            </ul>
+        </section>
+        <section id="section2">
+            <h2>
+                та самая вторая секция
+            </h2>
+            <P>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Взгляд подзаголовок буквоград безопасную! Страна, моей имени жизни снова злых толку агентство инициал языком коварных путь грамматики оксмокс свое, образ рот там ему, рукопись свой предложения то переписывается точках себя свою? Там текста которой переулка над заглавных дорогу вскоре запятой даже букв диких, моей, скатился дал одна, но своих составитель всемогущая грамматики путь жаренные встретил рыбными! Жаренные решила продолжил все? Вопроса свою прямо от всех на берегу его запятых. Буквенных, прямо скатился пор живет там злых щеке о имени, которой великий послушавшись путь проектах осталось раз. Вопрос до, моей предложения текстов бросил текстами своих его вдали. Своего строчка эта дорогу вскоре?
+<div class="block-2">
+                    <blockquote>
+                        как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед?как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед?как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед,как говорил мой дед, я твой дед
+                        <p>
+                            -Джейсон стетхем
+                        </p>
+                    </blockquote>
+</div>
+            </P>
+        </section>
+    </main>
+<div class="block-3">
+        <footer>
+            <h3>
+                Ссылки
+            </h3>
+            <ul>
+                <li>
+                    <a href="">
+                        Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Ссылка
+                    </a>
+                </li>
+            </ul>
+        </footer>
+</div>
     
 </body>
 </html>
