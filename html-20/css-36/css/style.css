@@ -1,0 +1,14 @@
+.block {background:#915c28c7;
+width: 200px;
+height: 200px;
+margin: 15px;
+border-radius: 10px;
+border-color: black;
+display: inline-block;}
+.block1 {
+    background: rgb(223, 182, 223);
+    max-width: 1000px;
+    min-width: 700px;
+    max-height: 500px;
+    overflow: scroll;
+}
