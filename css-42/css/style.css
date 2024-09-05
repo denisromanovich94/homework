@@ -1,0 +1,331 @@
+body {
+    background: rgb(24, 30, 52);
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    height: 100%;
+}
+
+
+
+
+
+
+.headerin {
+    display: flex;
+    align-items: center;
+}
+
+.headernav {
+    margin-left: auto;
+}
+
+.headerlist {
+    display: flex;
+}
+
+.headeritem {
+    margin-right: 30px;
+}
+
+.headerbutton {
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 14px 30px 14px 30px;
+    position: static;
+    width: 113px;
+    height: 48px;
+    color: rgb(39, 102, 174);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header {
+    padding: 30px 0px 36px;
+}
+
+.hero {
+    background: url(../img/fontemniy.jpeg)20% 50% /cover no-repeat;
+    max-height: 508px;
+    padding: 120px 0px;
+}
+
+.herotitle {
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heroin {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+
+.herotext {
+    max-width: 436px;
+    margin-right: 144px;
+}
+
+.par1 {
+    margin-bottom: 15px;
+}
+
+span {
+    color: rgb(1, 162, 203);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.herobuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px;
+}
+
+.herobutton1 {
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
+    width: 320px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 18px 30px 18px 30px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.herobutton2 {
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
+    width: 320px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 18px 30px 18px 30px;
+}
+
+.palec {
+    margin-left: 4px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+.cardsbutton {
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
+    width: 436px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    margin-left: 80px;
+}
+
+.cardstitle {
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cardsflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+    margin: 0 -14px;
+}
+
+.cardstext {
+    text-align: center;
+
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+
+.zagolovok {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.textkarti {
+    text-align: center;
+    padding: 0 28px;
+}
+
+.cardsflexitem {
+    margin-bottom: 28px;
+    padding: 0 28;
+
+}
+
+.cardsflexin {
+    width: 204px;
+    height: 141px;
+    border: 2px solid rgb(23, 107, 174);
+    border-radius: 16px;
+    box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+    background: rgb(25, 124, 184);
+    padding: 28px 15px;
+    margin-bottom: 28px;
+    flex: 0 0 25%;
+    margin-right: 28px;
+}
+
+.ryad1 {
+    display: flex;
+    max-width: 900px;
+
+}
+
+.ryad2 {
+    display: flex;
+    max-width: 900px;
+}
+
+.ryad3 {
+    width: 900px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px 18px 30px;
+}
+
+
+
+
+
+
+.footer {
+    border-top: 1px solid rgb(50, 57, 82);
+    padding: 60px 0px
+}
+
+
+.footerin {
+    display: flex;
+    
+}
+
+.footerdesk {
+    margin-right: auto;
+    max-width: 267px;
+
+}
+
+.footerdesk img {
+    margin-bottom: 15px;
+}
+
+.footercol1 {
+    margin-right: 116px;
+}
+
+
+
+
+.footertitle1 {
+    width: 115px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footertitle2 {
+    width: 115px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.footeritem1 {
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.footeritem2 {
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
